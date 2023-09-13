@@ -1,0 +1,39 @@
+.locale{
+    animation-name: changecolor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changecolor{
+    0%{
+        color: aqua;
+    }
+    
+    15%{
+        color: chartreuse;
+    }
+
+    30%{
+        color: chocolate;
+    }
+
+    45%{
+        color: darkred;
+    }
+
+    60%{
+        color: yellow;
+    }
+
+    75%{
+        color: orange;
+    }
+
+    90%{
+        color: white;
+    }
+    
+    100%{
+        color: plum;
+    }
+}
